@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="S.css">
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
+  <title>شركة الصفقة التامة</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+
+
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+<style>
+  body {
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+  }
+
+  p, a, li {
+    font-family: 'Tajawal', sans-serif;
+  }
+
+
+      body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    /* ====== ABOUT SECTION ====== */
+    .about-section {
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    }
+
+    .about-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 50px;
+    }
+
+    /* IMAGE */
+    .about-image {
+      flex: 1 1 45%;
+      text-align: center;
+      position: relative;
+    }
+
+    .about-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1s ease;
+    }
+
+    /* CONTENT */
+    .about-content {
+      flex: 1 1 50%;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1s ease;
+    }
+
+    .about-content h2 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .about-content h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: #007bff;
+      margin-top: 8px;
+      border-radius: 2px;
+      transition: width 0.4s ease;
+    }
+
+    .about-content h2:hover::after {
+      width: 100px;
+    }
+
+    .about-content h3 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+
+    .about-content p {
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    /* BUTTON */
+    .about-btn {
+      display: inline-block;
+      padding: 14px 32px;
+      background: #007bff;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+    }
+
+    .about-btn:hover {
+      background: #0056b3;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+    }
+
+    /* SHOW ANIMATION */
+    .show {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 992px) {
+      .about-wrapper {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-content h2::after {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+
+    .sidebar { background: linear-gradient(180deg, #1e293b, #0f172a); color: #fff; min-height: 100vh; }
+.sidebar a { color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 6px; display: block; }
+.sidebar a:hover { background-color: #1abc9c; color: #fff; }
+.sidebar hr { border-color: #fff; }
+body { font-family: 'Almarai', sans-serif; font-size: 16px; line-height: 1.6; }
+h1,h2,h3 { font-family: "Markazi Text", serif; }
+button, .btn { font-family: "Almarai", sans-serif; font-weight: 600; }
+.offcanvas { background: linear-gradient(135deg, #1e3c72, #2a5298) !important; }
+
+
+/* ألوان النص الافتراضي */
+.offcanvas .nav-link {
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+/* عند hover نغير لون الخلفية */
+.offcanvas .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* شفاف أبيض احترافي */
+  color: #fff;
+}
+
+
+/* تقليل عرض الـ slide-in */
+.offcanvas {
+  width: 250px !important;
+}
+
+/* إذا تريد الحفاظ على الخلفية الشفافة */
+.offcanvas-backdrop.show {
+  opacity: 0.3 !important; /* شفافية الخلفية */
+}
+
+#projects {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+
+
+
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light shadow-lg"
+  style="background: linear-gradient(90deg, #1a237e 0%, #00acc1 100%); color: white; padding: 20px;" dir="rtl">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+      <img src="deal.jpg" alt="Logo" width="50" height="30" class="ms-2 rounded">
+    </a>
+
+    <!-- Toggle Button (for mobile) -->
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
+      aria-controls="mobileMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Normal Menu (Desktop only) -->
+    <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex">
+      <ul class="navbar-nav flex-row gap-lg-4">
+        <li class="nav-item"><a class="nav-link text-white" href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#flip-carousel container mt-5">الخدمات</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#Services.php">المشاريع</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#about">عن الشركة</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#Contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Offcanvas Menu (Mobile only) -->
+<div class="offcanvas offcanvas-end text-bg-dark" data-bs-backdrop="false" tabindex="-1" id="mobileMenu" dir="rtl">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">القائمة</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="إغلاق"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav flex-column gap-3 text-center">
+      <li class="nav-item"><a class="nav-link text-white" href="index.html">الرئيسية</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#Services">الخدمات</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#Services">المشاريع</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#about">عن الشركة</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#Contact">تواصل معنا</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// اختياري: نضيف تأثير تدريجي سلس عند تحريك المؤشر
+document.querySelectorAll('.offcanvas .nav-link').forEach(link => {
+  link.addEventListener('mouseenter', () => {
+    link.style.backgroundColor = 'rgba(255, 255, 255, 0.2)'; // لون الخلفية عند hover
+    link.style.transition = 'all 0.3s ease';
+  });
+  link.addEventListener('mouseleave', () => {
+    link.style.backgroundColor = 'transparent'; // الرجوع للوضع الطبيعي
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+<div id="home1" class="home1"> 
+<div id="home" class="container text-center mt-5">
+<div id="home" class="py-5 text-center text-white" style="">
+<h2 class="section-title" style="color: black; text-shadow: 1px 1px 3px rgba(255,255,255,0.6);">
+  مرحبا بكم في شركة الصفقة التامة
+</h2>
+
+
+  <img src="deal.jpg" class="img-fluid mb-4 rounded shadow" style="max-height: 300px;">
+  <div class="row justify-content-center g-4">
+    <div class="col-md-3">
+      <button class="btn btn-light btn-lg w-100 py-4 shadow">
+      <div>
+  <img src="En.jpg" alt="Construction Icon" style="height: 160px;">
+</div>
+        <strong style="font-size: 1.75rem;">1583+</strong><br>المشاريع المنجزة
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-light btn-lg w-100 py-4 shadow">
+      <div>
+  <img src="En2.jpg" alt="Construction Icon" style="height: 160px;">
+</div>
+        <strong style="font-size: 1.75rem;">52+</strong><br>مهندسين ماهرين
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-light btn-lg w-100 py-4 shadow">
+      <div>
+  <img src="En3.jpg" alt="Construction Icon" style="height: 160px;">
+</div>
+        <strong style="font-size: 1.75rem;">60+</strong><br>المدن التي نخدمها
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects Carousel</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f8f9fa; }
+  #projects { padding: 50px 0; text-align: center; }
+  #projects h2 { margin-bottom: 30px; }
+
+  .carousel-container {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-track img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    height: 400px;
+  }
+
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+
+  .carousel-btn-left { left: 10px; }
+  .carousel-btn-right { right: 10px; }
+
+</style>
+</head>
+<body>
+
+<section id="projects">
+  <h2>أعمالنا</h2>
+  <div class="carousel-container">
+    <div class="carousel-track" id="carouselTrack">
+      <img src="o10.jpg" alt="Project 1">
+      <img src="o11.jpg" alt="Project 2">
+      <img src="o13.jpg" alt="Project 3">
+      <img src="o14.jpg" alt="Project 4">
+      <img src="o15.jpg" alt="Project 5">
+    </div>
+    <button class="carousel-btn carousel-btn-left" id="prevBtn">&#10094;</button>
+    <button class="carousel-btn carousel-btn-right" id="nextBtn">&#10095;</button>
+  </div>
+</section>
+
+<script>
+const track = document.getElementById('carouselTrack');
+const images = track.querySelectorAll('img');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+let index = 0;
+
+// Auto-slide every 3 seconds
+setInterval(() => { moveNext(); }, 3000);
+
+function moveNext() {
+  index = (index + 1) % images.length;
+  track.style.transform = `translateX(-${index * 100}%)`;
+}
+
+function movePrev() {
+  index = (index - 1 + images.length) % images.length;
+  track.style.transform = `translateX(-${index * 100}%)`;
+}
+
+nextBtn.addEventListener('click', moveNext);
+prevBtn.addEventListener('click', movePrev);
+</script>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+  
+<!-- Flip Carousel Section -->
+<div class="flip-carousel container mt-5">
+    <h2 class="section-title text-center mb-4">أعمالنا المميزة</h2>
+    <div class="carousel-row">
+  
+      <!-- Flip Card 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="n.jpeg" alt="مشروع 1">
+          </div>
+          <div class="flip-card-back">
+            <h5>مشروع سكني فاخر</h5>
+            <p>تصميم وتنفيذ مجمع سكني متكامل بمستوى جودة عالي.</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Flip Card 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="m.jpg" alt="مشروع 2">
+          </div>
+          <div class="flip-card-back">
+            <h5>مبنى تجاري حديث</h5>
+            <p>مشروع تجاري متعدد الطوابق مع مراعاة أفضل معايير التصميم.</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Flip Card 3 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="f.jpeg" alt="مشروع 3">
+          </div>
+          <div class="flip-card-back">
+            <h5>فيلا فاخرة</h5>
+            <p>تصميم وتنفيذ فيلا مستقلة مع حدائق ومرافق متكاملة.</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  
+  <!-- CSS -->
+  <style>
+  .flip-carousel .carousel-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .flip-card-back {
+    background-color: #0d6efd;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .flip-card-back h5 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+  }
+  
+  .flip-card-back p {
+    font-size: 1rem;
+  }
+  </style>
+  
+
+  <!-- Team Start -->
+  <div class="team">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>مهندسينا الرائعين </p>
+                        <h2>Meet Our Engineer</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="done.png" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>احمد</h2>
+                                    <p>مهندس معماري </p>
+                                </div>
+                                <div class="team-social">
+                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="done.png" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>سعد</h2>
+                                    <p>مهندس مدني </p>
+                                </div>
+                                <div class="team-social">
+                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="done.png" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>محمد </h2>
+                                    <p>مهندس طرقات</p>
+                                </div>
+                                <div class="team-social">
+                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="done.png" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>كمال  </h2>
+                                    <p> مهندس تقنية معلومات</p>
+                                </div>
+                                <div class="team-social">
+                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team End -->
+            
+
+       
+
+<!-- ====== START ABOUT (ARABIC) ====== -->
+<section class="about-section" id="about" dir="rtl">
+  <div class="about-wrapper">
+
+    <!-- الصورة -->
+    <div class="about-image">
+      <img src="deal.jpg" alt="صورة الشركة">
+    </div>
+
+    <!-- المحتوى -->
+    <div class="about-content">
+      <h2>من نحن</h2>
+      <h3>تعرف علينا</h3>
+      <p>
+      لسنا مجرد شركة مقاولات؛ نحن عقلية تنفيذية تركز على كل تفاصيل المشروع منذ بدايته وحتى اكتماله. نحرص على فهم رؤية العميل بدقة، ثم نصنع خطة متكاملة تضمن تحويل هذه الرؤية إلى واقع ملموس. تأسست شركة  الصفقة التامة على مبدأ بسيط لكنه راسخ: «النجاح في البناء ليس فقط بالمباني، بل بالثقة والجودة». منذ انطلاقنا، أنجزنا مشاريع متنوعة، من أعمال صغيرة إلى مجمعات متكاملة، دائماً مع التزام كامل بروح الفريق والمهنية العالية.</p>
+      <p>
+      بفضل خبرتنا الطويلة، ندمج بين الابتكار، التخطيط الاستراتيجي، والتقنية الحديثة لنقدم نتائج ملموسة ونبني علاقات طويلة الأمد مع عملائنا، مع ضمان أعلى مستويات الجودة والاحترافية في كل مشروع.</p>
+      <a href="#0" class="about-btn">اقرأ المزيد ←</a>
+    </div>
+
+  </div>
+</section>
+<!-- ====== END ABOUT (ARABIC) ====== -->
+
+
+
+<script>
+  // تأثير الظهور عند التمرير
+  document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll(".about-image img, .about-content");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+
+    elements.forEach((el) => observer.observe(el));
+  });
+</script>
+
+
+  <script>
+    // Fade-in on scroll
+    document.addEventListener("DOMContentLoaded", () => {
+      const elements = document.querySelectorAll(".about-image img, .about-content");
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2 });
+
+      elements.forEach((el) => observer.observe(el));
+    });
+  </script>
+
+
+
+
+            <!-- Footer Start -->
+            <div class="footer wow fadeIn" data-wow-delay="0.3s">
+                <div class="container">
+                    <div class="row">
+
+                    <div class="col-md-6 col-lg-3">
+                            <div class="footer-contact">
+                                <h2>اتصال بالمكتب</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>المملكة العربية السعودية </p>
+                                <p><i class="fa fa-phone-alt"></i>+966555000356</p>
+                                <p><i class="fa fa-envelope"></i>m0555000356@gmail.com</p>
+                                <div class="footer-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div> 
+
+                        
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>مجالات الخدمات</h2>
+                                <a href="">إنشاءات</a>
+                                <a href="">تجديد منازل</a>
+                                <a href="">تصميم معماري</a>
+                                <a href="">تصميم داخلي</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>صفحات مفيدة</h2>
+                                <a href="">نبذة عنا</a>
+                                <a href="">تواصل معنا</a>
+                                <a href="">فريقنا</a>
+                                <a href="">مشاريعنا</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="newsletter">
+                                <h2>شركة الصفقة التامة</h2>
+                                <p>
+                                متخصصة في المقاولات العامة والإنشاءات، نقدم خدمات احترافية وثقة وجودة عالية في تنفيذ المشاريع السكنية والتجارية. </p>
+                                <div class="form">
+                                    <input class="form-control" placeholder="Email here">
+                                    <button class="btn">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    
+                    </div>
+                </div>
+                
+            <!-- Footer End -->
+
+<!-- JavaScript -->
+<script>
+  // تحديث السنة تلقائيًا
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // نسخ البريد الإلكتروني
+  function copyEmail() {
+    navigator.clipboard.writeText("m0555000356@gmail.com").then(function () {
+      const alertBox = document.createElement('div');
+      alertBox.innerText = "تم نسخ البريد الإلكتروني!";
+      alertBox.style.cssText = "position: fixed; bottom: 20px; right: 20px; background: #ffc107; color: #000; padding: 10px 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1000;";
+      document.body.appendChild(alertBox);
+      setTimeout(() => alertBox.remove(), 3000);
+    }).catch(function () {
+      alert("حدث خطأ أثناء النسخ.");
+    });
+  }
+</script>
+
+<!-- Font Awesome CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+
+
+
+
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</footer>
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="main.js"></script>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+     
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
